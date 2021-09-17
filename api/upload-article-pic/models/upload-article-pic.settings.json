@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "upload_article_pics",
+  "info": {
+    "name": "uploadArticlePic",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pic": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "app": {
+      "type": "string"
+    }
+  }
+}
