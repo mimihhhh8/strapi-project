@@ -537,6 +537,12 @@
           "pic": {
             "type": "string"
           },
+          "tags": {
+            "type": "string"
+          },
+          "bankname": {
+            "type": "string"
+          },
           "published_at": {
             "type": "string",
             "format": "date-time"
@@ -558,6 +564,12 @@
             "type": "string"
           },
           "pic": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "string"
+          },
+          "bankname": {
             "type": "string"
           },
           "published_at": {

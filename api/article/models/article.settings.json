@@ -26,6 +26,12 @@
     },
     "pic": {
       "type": "string"
+    },
+    "tags": {
+      "type": "string"
+    },
+    "bankname": {
+      "type": "string"
     }
   }
 }
